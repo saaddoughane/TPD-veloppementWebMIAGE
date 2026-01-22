@@ -308,6 +308,7 @@ a {
 @media (max-width: 768px) {
 
   .navbar {
+    display: none;
     flex-direction: column;
     gap: 0.8rem;
     padding: 1rem;
