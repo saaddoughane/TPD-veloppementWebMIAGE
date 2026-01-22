@@ -11,6 +11,11 @@
         <div class="navbar_gauche">
             <h1>Saadeddine</h1>
         </div>
+        <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <div class="navbar_droite">
             <a href="#about" class="navlink">About</a>
             <a href="#services" class="navlink">Services</a>
@@ -18,6 +23,15 @@
         </div>
     </div>
 
+    <div class="mobile_menu" id="mobileMenu" aria-hidden="true">
+        <div class="mobile_menu_content">
+            <a href="#about" class="mobile_link">About</a>
+            <hr class="mobile_sep">
+            <a href="#services" class="mobile_link">Services</a>
+            <hr class="mobile_sep">
+            <a href="#contact" class="mobile_link">Contact me</a>
+        </div>
+    </div>
 
     <div class="section1">
         <div class="section1_gauche">
@@ -176,5 +190,6 @@
         <p>© Saadeddine Doughane 2026</p>
     </div>
 
+    <script src="./index.js"></script>
 </body>
 </html>
